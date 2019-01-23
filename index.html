@@ -18,9 +18,17 @@
 <body>
 
    <header>
-<svg viewBox="0 0 80 20" xmlns="http://www.w3.org/2000/svg"
-     xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg>
   <!-- Our symbol in its own coordinate system -->
+   <!-- All instances of our symbol -->
+  <use xlink:href="#myDot" x="5"  y="5" style="opacity:1.0" />
+  <use xlink:href="#myDot" x="20" y="5" style="opacity:0.8" />
+  <use xlink:href="#myDot" x="35" y="5" style="opacity:0.6" />
+  <use xlink:href="#myDot" x="50" y="5" style="opacity:0.4" />
+  <use xlink:href="#myDot" x="65" y="5" style="opacity:0.2" />
+</svg>
+  <svg viewBox="0 0 80 20" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
   <symbol id="myDot" width="10" height="10" viewBox="0 0 2 2">
     <circle cx="1" cy="1" r="1" />
   </symbol>
